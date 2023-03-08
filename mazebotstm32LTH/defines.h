@@ -32,8 +32,8 @@ int16_t lastError = 0;
 int16_t error = 0;
 
 int16_t sensor_values[N_SENS];
-int16_t	 sens_max[N_SENS] = { 3850, 3850, 3850, 3850, 3850, 3850, 3850, 3850 };
-int16_t	 sens_min[N_SENS] = { 3400, 3350, 3320, 3330, 3440, 3350, 3400, 3600 };
+int16_t sens_max[N_SENS] = { 3850, 3850, 3850, 3850, 3850, 3850, 3850, 3850 };
+int16_t sens_min[N_SENS] = { 3400, 3350, 3320, 3330, 3440, 3350, 3400, 3600 };
 unsigned char sensor[N_SENS] = { PA7, PA6, PA5, PA4, PA3, PA2, PA1, PA0 };
 char path[100] = "";
 char reverse_path[100] = "";

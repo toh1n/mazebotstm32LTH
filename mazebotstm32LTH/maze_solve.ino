@@ -34,7 +34,6 @@ void maze_solve() {
 
       int32_t m2 = millis();
       while (millis() - m2 < m1) {
-
         pid(maxSpeed, p, d);
         readLine();
         if (sensor_values[0] > threshold) {

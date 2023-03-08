@@ -2,7 +2,7 @@
 #include "defines.h"
 
 void setup() {
-  
+
   pinMode(rightMotorForward, OUTPUT);
   pinMode(rightMotorBackward, OUTPUT);
   pinMode(rightMotorPWM, OUTPUT);

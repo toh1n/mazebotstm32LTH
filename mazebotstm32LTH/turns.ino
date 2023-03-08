@@ -21,8 +21,7 @@ void turn(char dir) {
       }
 
       line_position = readLine();
-      while (sensor_values[3] < threshold && sensor_values[4] < threshold)  // wait for outer most sensor to find the line
-      {
+      while (sensor_values[3] < threshold && sensor_values[4] < threshold) {
         line_position = readLine();
       }
 
@@ -37,25 +36,21 @@ void turn(char dir) {
       delay(100);
       right();
       line_position = readLine();
-      while (sensor_values[7] < threshold)  // wait for outer most sensor to find the line
-      {
+      while (sensor_values[7] < threshold) {
         line_position = readLine();
       }
 
       line_position = readLine();
-      while (sensor_values[6] < threshold)  // wait for outer most sensor to find the line
-      {
+      while (sensor_values[6] < threshold) {
         line_position = readLine();
       }
 
-      while (sensor_values[5] < threshold)  // wait for outer most sensor to find the line
-      {
+      while (sensor_values[5] < threshold) {
         line_position = readLine();
       }
 
       line_position = readLine();
-      while (sensor_values[4] < threshold && sensor_values[3] < threshold)  // wait for outer most sensor to find the line
-      {
+      while (sensor_values[4] < threshold && sensor_values[3] < threshold) {
         line_position = readLine();
       }
 
@@ -70,14 +65,12 @@ void turn(char dir) {
       delay(100);
       right();
       line_position = readLine();
-      while (sensor_values[6] < threshold)  // wait for outer most sensor to find the line
-      {
+      while (sensor_values[6] < threshold) {
         line_position = readLine();
       }
 
       line_position = readLine();
-      while (sensor_values[5] < threshold || sensor_values[4] < threshold || sensor_values[3] < threshold)  // wait for outer most sensor to find the line
-      {
+      while (sensor_values[5] < threshold || sensor_values[4] < threshold || sensor_values[3] < threshold) {
         line_position = readLine();
       }
 
